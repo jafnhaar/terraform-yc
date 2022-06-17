@@ -1,0 +1,4 @@
+terraform.tfvars
+meta.txt
+terraform.tfstate
+terraform.tfstate.backup
