@@ -1,19 +1,3 @@
-terraform {
-  required_providers {
-    yandex = {
-      source  = "yandex-cloud/yandex"
-      version = "0.75.0"
-    }
-  }
-}
-
-provider "yandex" {
-  token     = var.token
-  cloud_id  = var.cloud_id
-  folder_id = var.folder_id
-  zone      = var.zone_id
-}
-
 resource "yandex_vpc_network" "test-network" {
   name = "test-network"
 }
